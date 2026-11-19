@@ -1,0 +1,26 @@
+{
+  "snapshotDate": "2026-11-18",
+  "sources": [
+    {
+      "file": "shoreline.geojson",
+      "dataset": "gthc-hcne",
+      "query": "https://data.cityofnewyork.us/resource/gthc-hcne.geojson?%24where=borocode%3D1&%24select=the_geom%2Cboroname&%24limit=5",
+      "features": 1,
+      "sha256": "08ab310f27274a71e3e19a080840411916d93d82fbfebe3c165c9ae63286634b"
+    },
+    {
+      "file": "streets.geojson",
+      "dataset": "inkn-q76z",
+      "query": "https://data.cityofnewyork.us/resource/inkn-q76z.geojson?%24where=boroughcode%3D%271%27+AND+rw_type+in+%281%2C6%2C8%2C9%29+AND+%28nonped+is+null+OR+nonped+%21%3D+%27V%27%29&%24select=the_geom%2Cfull_street_name%2Crw_type%2Cphysicalid&%24limit=50000",
+      "features": 10828,
+      "sha256": "972b43cbe33ba1e3008037e6ad2f530e75fd5e2a3f4cfe844b9a584a968dbb06"
+    },
+    {
+      "file": "parks.geojson",
+      "dataset": "enfh-gkve",
+      "query": "https://data.cityofnewyork.us/resource/enfh-gkve.geojson?%24where=borough%3D%27M%27+AND+%28retired%3Dfalse+OR+retired+is+null%29&%24select=multipolygon%2Csignname%2Ctypecategory%2Cgispropnum&%24limit=10000",
+      "features": 396,
+      "sha256": "773c8171d01c09e3ca6800d16b039155a51c48f47715bc155eacfac192ee4dae"
+    }
+  ]
+}

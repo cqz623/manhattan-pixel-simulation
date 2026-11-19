@@ -1,0 +1,63 @@
+name: Publish Pixel City to GitHub Pages
+
+# Runs after approved changes reach main; configure Pages source as GitHub Actions.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  PAGES_BASE_PATH: /manhattan-pixel-simulation/
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out approved source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install test dependencies
+        run: npm ci
+      - name: Run application tests
+        run: npm test
+      - name: Package existing static site
+        run: npm run build
+      - name: Verify repository subpath
+        run: npm run check:pages -- "$PAGES_BASE_PATH"
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Publish approved artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,538 @@
+{
+  "format": "pixel-city-ab-pre-fix-audit",
+  "replanMetricVersion": 1,
+  "parameters": {
+    "width": 128,
+    "height": 72,
+    "mapSeed": 1,
+    "seed": 1,
+    "variationSeed": 1,
+    "agents": 4,
+    "radius": 6,
+    "seconds": 960,
+    "useLandmarks": true
+  },
+  "note": "Measured before this task changed code. Old default empty-crowd base cost was 1. This sample is not a claim to recover the user\u2019s exact edited B scenario.",
+  "A": {
+    "result": {
+      "time": 960,
+      "agents": 4,
+      "deliveries": 6,
+      "tours": 0,
+      "visits": 13,
+      "firstDelivery": 365.29999999999995,
+      "laterDelivery": 172.9,
+      "distance": 7378,
+      "energy": 7382.25,
+      "explored": 8021,
+      "landmarks": 698,
+      "reuse": 18,
+      "replans": 3825,
+      "obstacles": 0,
+      "averageDeliveryTime": 237.0333333333333,
+      "successRate": 0.75,
+      "averageRouteLength": 587.6666666666666,
+      "plannedTasks": 8,
+      "averageTravelCost": 587.6666666666666,
+      "averageManhattan": 113.66666666666667,
+      "travelCost": 7423.700000000003,
+      "explorers": 2,
+      "explorerCoverage": 0.8152126736111112,
+      "explorerLandmarks": 536,
+      "explorerCost": 3439.7000000000025,
+      "attemptedTasks": 7,
+      "incompleteTasks": 2,
+      "activeCells": 9216,
+      "explorationCoverage": 0.8703342013888888,
+      "complete": true,
+      "seconds": 960,
+      "treatmentVisits": null,
+      "courierTreatmentVisits": null,
+      "treatmentObservers": null,
+      "trips": [
+        {
+          "agentId": "C-2",
+          "number": 1,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 0.2,
+          "completedAt": 238.4,
+          "time": 238.2,
+          "distance": 590,
+          "energy": 590,
+          "weightedCost": 590,
+          "manhattanDistance": 129,
+          "exploredCells": 2537,
+          "landmarksDiscovered": 198,
+          "landmarkReuse": 0,
+          "replans": 381,
+          "obstacleEncounters": 0,
+          "destinationId": "site-1sbwlsx"
+        },
+        {
+          "agentId": "C-2",
+          "number": 2,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 239,
+          "completedAt": 358.6,
+          "time": 119.6,
+          "distance": 298,
+          "energy": 298,
+          "weightedCost": 298,
+          "manhattanDistance": 147,
+          "exploredCells": 53,
+          "landmarksDiscovered": 3,
+          "landmarkReuse": 2,
+          "replans": 2,
+          "obstacleEncounters": 0,
+          "destinationId": "site-hc5gob"
+        },
+        {
+          "agentId": "C-2",
+          "number": 3,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 359.4,
+          "completedAt": 560.2,
+          "time": 200.8,
+          "distance": 497,
+          "energy": 497,
+          "weightedCost": 497,
+          "manhattanDistance": 112,
+          "exploredCells": 1739,
+          "landmarksDiscovered": 212,
+          "landmarkReuse": 1,
+          "replans": 196,
+          "obstacleEncounters": 0,
+          "destinationId": "site-42vhvb"
+        },
+        {
+          "agentId": "C-2",
+          "number": 4,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 561,
+          "completedAt": 646.6,
+          "time": 85.6,
+          "distance": 213,
+          "energy": 213,
+          "weightedCost": 213,
+          "manhattanDistance": 91,
+          "exploredCells": 77,
+          "landmarksDiscovered": 1,
+          "landmarkReuse": 2,
+          "replans": 2,
+          "obstacleEncounters": 0,
+          "destinationId": "site-bbmftx"
+        },
+        {
+          "agentId": "C-4",
+          "number": 1,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 0.2,
+          "completedAt": 492.6,
+          "time": 492.4,
+          "distance": 1219,
+          "energy": 1219,
+          "weightedCost": 1219,
+          "manhattanDistance": 112,
+          "exploredCells": 4492,
+          "landmarksDiscovered": 253,
+          "landmarkReuse": 0,
+          "replans": 800,
+          "obstacleEncounters": 0,
+          "destinationId": "site-42vhvb"
+        },
+        {
+          "agentId": "C-4",
+          "number": 2,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 493.4,
+          "completedAt": 779,
+          "time": 285.6,
+          "distance": 709,
+          "energy": 709,
+          "weightedCost": 709,
+          "manhattanDistance": 91,
+          "exploredCells": 2075,
+          "landmarksDiscovered": 223,
+          "landmarkReuse": 1,
+          "replans": 257,
+          "obstacleEncounters": 0,
+          "destinationId": "site-bbmftx"
+        }
+      ]
+    },
+    "diagnostics": [
+      {
+        "id": "E-1",
+        "type": "explorer",
+        "plans": 967,
+        "replans": 970,
+        "known": 6084,
+        "status": "Exploring unknown cells and landmarks"
+      },
+      {
+        "id": "C-2",
+        "type": "courier",
+        "plans": 582,
+        "replans": 581,
+        "known": 4407,
+        "status": "Workload complete \u00b7 4/4 deliveries"
+      },
+      {
+        "id": "E-3",
+        "type": "explorer",
+        "plans": 1081,
+        "replans": 1081,
+        "known": 6760,
+        "status": "Exploring unknown cells and landmarks"
+      },
+      {
+        "id": "C-4",
+        "type": "courier",
+        "plans": 1187,
+        "replans": 1193,
+        "known": 7214,
+        "status": "Searching for site-17pxnk"
+      }
+    ],
+    "changedCells": [
+      {
+        "index": 0,
+        "x": 0,
+        "y": 0,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "construction"
+          }
+        ],
+        "visits": 0,
+        "knownBy": [
+          "C-4"
+        ]
+      },
+      {
+        "index": 98,
+        "x": 98,
+        "y": 0,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "crowd"
+          }
+        ],
+        "visits": 0,
+        "knownBy": [
+          "E-1",
+          "E-3",
+          "C-4"
+        ]
+      },
+      {
+        "index": 492,
+        "x": 108,
+        "y": 3,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "crowd"
+          }
+        ],
+        "visits": 1,
+        "knownBy": [
+          "E-1",
+          "E-3",
+          "C-4"
+        ]
+      },
+      {
+        "index": 5527,
+        "x": 23,
+        "y": 43,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "crowd"
+          }
+        ],
+        "visits": 1,
+        "knownBy": [
+          "E-1",
+          "C-2",
+          "E-3",
+          "C-4"
+        ]
+      }
+    ]
+  },
+  "B": {
+    "result": {
+      "time": 960,
+      "agents": 4,
+      "deliveries": 6,
+      "tours": 0,
+      "visits": 13,
+      "firstDelivery": 365.29999999999995,
+      "laterDelivery": 172.9,
+      "distance": 7378,
+      "energy": 7382.25,
+      "explored": 8021,
+      "landmarks": 700,
+      "reuse": 18,
+      "replans": 3825,
+      "obstacles": 0,
+      "averageDeliveryTime": 237.0333333333333,
+      "successRate": 0.75,
+      "averageRouteLength": 587.6666666666666,
+      "plannedTasks": 8,
+      "averageTravelCost": 587.6666666666666,
+      "averageManhattan": 113.66666666666667,
+      "travelCost": 7423.700000000003,
+      "explorers": 2,
+      "explorerCoverage": 0.8152126736111112,
+      "explorerLandmarks": 537,
+      "explorerCost": 3439.7000000000025,
+      "attemptedTasks": 7,
+      "incompleteTasks": 2,
+      "activeCells": 9216,
+      "explorationCoverage": 0.8703342013888888,
+      "complete": true,
+      "seconds": 960,
+      "treatmentVisits": 2,
+      "courierTreatmentVisits": 1,
+      "treatmentObservers": 4,
+      "trips": [
+        {
+          "agentId": "C-2",
+          "number": 1,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 0.2,
+          "completedAt": 238.4,
+          "time": 238.2,
+          "distance": 590,
+          "energy": 590,
+          "weightedCost": 590,
+          "manhattanDistance": 129,
+          "exploredCells": 2537,
+          "landmarksDiscovered": 198,
+          "landmarkReuse": 0,
+          "replans": 381,
+          "obstacleEncounters": 0,
+          "destinationId": "site-1sbwlsx"
+        },
+        {
+          "agentId": "C-2",
+          "number": 2,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 239,
+          "completedAt": 358.6,
+          "time": 119.6,
+          "distance": 298,
+          "energy": 298,
+          "weightedCost": 298,
+          "manhattanDistance": 147,
+          "exploredCells": 53,
+          "landmarksDiscovered": 3,
+          "landmarkReuse": 2,
+          "replans": 2,
+          "obstacleEncounters": 0,
+          "destinationId": "site-hc5gob"
+        },
+        {
+          "agentId": "C-2",
+          "number": 3,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 359.4,
+          "completedAt": 560.2,
+          "time": 200.8,
+          "distance": 497,
+          "energy": 497,
+          "weightedCost": 497,
+          "manhattanDistance": 112,
+          "exploredCells": 1739,
+          "landmarksDiscovered": 212,
+          "landmarkReuse": 1,
+          "replans": 196,
+          "obstacleEncounters": 0,
+          "destinationId": "site-42vhvb"
+        },
+        {
+          "agentId": "C-2",
+          "number": 4,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 561,
+          "completedAt": 646.6,
+          "time": 85.6,
+          "distance": 213,
+          "energy": 213,
+          "weightedCost": 213,
+          "manhattanDistance": 91,
+          "exploredCells": 77,
+          "landmarksDiscovered": 1,
+          "landmarkReuse": 2,
+          "replans": 2,
+          "obstacleEncounters": 0,
+          "destinationId": "site-bbmftx"
+        },
+        {
+          "agentId": "C-4",
+          "number": 1,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 0.2,
+          "completedAt": 492.6,
+          "time": 492.4,
+          "distance": 1219,
+          "energy": 1219,
+          "weightedCost": 1219,
+          "manhattanDistance": 112,
+          "exploredCells": 4492,
+          "landmarksDiscovered": 254,
+          "landmarkReuse": 0,
+          "replans": 800,
+          "obstacleEncounters": 0,
+          "destinationId": "site-42vhvb"
+        },
+        {
+          "agentId": "C-4",
+          "number": 2,
+          "type": "courier",
+          "useLandmarks": true,
+          "startedAt": 493.4,
+          "completedAt": 779,
+          "time": 285.6,
+          "distance": 709,
+          "energy": 709,
+          "weightedCost": 709,
+          "manhattanDistance": 91,
+          "exploredCells": 2075,
+          "landmarksDiscovered": 224,
+          "landmarkReuse": 1,
+          "replans": 257,
+          "obstacleEncounters": 0,
+          "destinationId": "site-bbmftx"
+        }
+      ]
+    },
+    "diagnostics": [
+      {
+        "id": "E-1",
+        "type": "explorer",
+        "plans": 967,
+        "replans": 970,
+        "known": 6084,
+        "status": "Exploring unknown cells and landmarks"
+      },
+      {
+        "id": "C-2",
+        "type": "courier",
+        "plans": 582,
+        "replans": 581,
+        "known": 4407,
+        "status": "Workload complete \u00b7 4/4 deliveries"
+      },
+      {
+        "id": "E-3",
+        "type": "explorer",
+        "plans": 1081,
+        "replans": 1081,
+        "known": 6760,
+        "status": "Exploring unknown cells and landmarks"
+      },
+      {
+        "id": "C-4",
+        "type": "courier",
+        "plans": 1187,
+        "replans": 1193,
+        "known": 7214,
+        "status": "Searching for site-17pxnk"
+      }
+    ],
+    "changedCells": [
+      {
+        "index": 0,
+        "x": 0,
+        "y": 0,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "construction"
+          }
+        ],
+        "visits": 0,
+        "knownBy": [
+          "C-4"
+        ]
+      },
+      {
+        "index": 98,
+        "x": 98,
+        "y": 0,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "crowd"
+          }
+        ],
+        "visits": 0,
+        "knownBy": [
+          "E-1",
+          "E-3",
+          "C-4"
+        ]
+      },
+      {
+        "index": 492,
+        "x": 108,
+        "y": 3,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "crowd"
+          }
+        ],
+        "visits": 1,
+        "knownBy": [
+          "E-1",
+          "E-3",
+          "C-4"
+        ]
+      },
+      {
+        "index": 5527,
+        "x": 23,
+        "y": 43,
+        "patches": [
+          {
+            "layer": "static",
+            "before": "road",
+            "after": "crowd"
+          }
+        ],
+        "visits": 1,
+        "knownBy": [
+          "E-1",
+          "C-2",
+          "E-3",
+          "C-4"
+        ]
+      }
+    ]
+  }
+}

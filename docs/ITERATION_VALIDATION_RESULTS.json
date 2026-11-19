@@ -1,0 +1,6462 @@
+{
+  "format": "pixel-city-iteration-validation",
+  "version": 1,
+  "generatedAt": "2026-11-19T03:43:42.249Z",
+  "checks": {
+    "matchedStarts": true,
+    "identicalReplay": true,
+    "fastAndAnimatedEquivalent": true,
+    "bothSelectionBranches": true,
+    "selectedMeasurementMatchesFreshReplay": true,
+    "previousEvidenceUnchanged": true,
+    "validVariations": true,
+    "recordedPathsMatchMovements": true
+  },
+  "note": "Actual fixed-step model runs and frame accumulation. Validation selects both branches deliberately; no winning environment is inferred. Browser layout/video QA is separate.",
+  "experiments": [
+    {
+      "id": "shortcut",
+      "question": "Does improved physical connectivity improve delivery performance when agents initially have limited spatial knowledge?",
+      "options": {
+        "seed": 1,
+        "count": 4,
+        "radius": 6,
+        "useLandmarks": true,
+        "seconds": 480
+      },
+      "plan": {
+        "width": 40,
+        "height": 28,
+        "area": {
+          "id": "city",
+          "name": "Entire city",
+          "x": 0,
+          "y": 0,
+          "width": 40,
+          "height": 28
+        },
+        "seed": 1,
+        "radius": 6,
+        "useLandmarks": true,
+        "taskLimit": 4,
+        "starts": [
+          {
+            "id": "E-1",
+            "type": "explorer",
+            "index": 564,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-115qeqw",
+            "batteryEnabled": false
+          },
+          {
+            "id": "C-2",
+            "type": "courier",
+            "index": 604,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-115qeqw",
+            "batteryEnabled": false
+          },
+          {
+            "id": "E-3",
+            "type": "explorer",
+            "index": 644,
+            "heading": 3.141592653589793,
+            "assignments": [
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-12q91y7",
+            "batteryEnabled": false
+          },
+          {
+            "id": "C-4",
+            "type": "courier",
+            "index": 684,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-12q91y7",
+            "batteryEnabled": false
+          }
+        ],
+        "jobs": [
+          {
+            "id": "site-1oiedce",
+            "kind": "destination"
+          },
+          {
+            "id": "site-4o31ax",
+            "kind": "destination"
+          }
+        ],
+        "requiredCells": [
+          564,
+          595,
+          644,
+          675
+        ]
+      },
+      "changes": {
+        "cells": [
+          526,
+          527,
+          528,
+          529,
+          530,
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          544,
+          545,
+          546,
+          547,
+          548,
+          549,
+          550,
+          551,
+          552,
+          553,
+          566,
+          567,
+          568,
+          569,
+          570,
+          571,
+          572,
+          573,
+          574,
+          575,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584,
+          585,
+          586,
+          587,
+          588,
+          589,
+          590,
+          591,
+          592,
+          593
+        ],
+        "details": [
+          {
+            "index": 526,
+            "x": 6,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 527,
+            "x": 7,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 528,
+            "x": 8,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 529,
+            "x": 9,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 530,
+            "x": 10,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 531,
+            "x": 11,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 532,
+            "x": 12,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 533,
+            "x": 13,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 534,
+            "x": 14,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 535,
+            "x": 15,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 536,
+            "x": 16,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 537,
+            "x": 17,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 538,
+            "x": 18,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 539,
+            "x": 19,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 540,
+            "x": 20,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 541,
+            "x": 21,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 542,
+            "x": 22,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 543,
+            "x": 23,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 544,
+            "x": 24,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 545,
+            "x": 25,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 546,
+            "x": 26,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 547,
+            "x": 27,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 548,
+            "x": 28,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 549,
+            "x": 29,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 550,
+            "x": 30,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 551,
+            "x": 31,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 552,
+            "x": 32,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 553,
+            "x": 33,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 566,
+            "x": 6,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 567,
+            "x": 7,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 568,
+            "x": 8,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 569,
+            "x": 9,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 570,
+            "x": 10,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 571,
+            "x": 11,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 572,
+            "x": 12,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 573,
+            "x": 13,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 574,
+            "x": 14,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 575,
+            "x": 15,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 576,
+            "x": 16,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 577,
+            "x": 17,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 578,
+            "x": 18,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 579,
+            "x": 19,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 580,
+            "x": 20,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 581,
+            "x": 21,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 582,
+            "x": 22,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 583,
+            "x": 23,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 584,
+            "x": 24,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 585,
+            "x": 25,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 586,
+            "x": 26,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 587,
+            "x": 27,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 588,
+            "x": 28,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 589,
+            "x": 29,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 590,
+            "x": 30,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 591,
+            "x": 31,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 592,
+            "x": 32,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          },
+          {
+            "index": 593,
+            "x": 33,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "building",
+                "after": "road"
+              }
+            ]
+          }
+        ],
+        "rules": [],
+        "summary": [
+          {
+            "change": "static: building → road",
+            "count": 56
+          }
+        ]
+      },
+      "a": {
+        "deliveries": 8,
+        "plannedTasks": 8,
+        "successRate": 1,
+        "averageDeliveryTime": 31.549999999999997,
+        "travelCost": 1010.1999999999998,
+        "explorationCoverage": 0.40982142857142856,
+        "explorerCoverage": 0.40982142857142856,
+        "replans": 4,
+        "reuse": 15,
+        "firstDelivery": 28.5,
+        "laterDelivery": 32.56666666666667
+      },
+      "b": {
+        "deliveries": 8,
+        "plannedTasks": 8,
+        "successRate": 1,
+        "averageDeliveryTime": 39.85000000000001,
+        "travelCost": 1277.2999999999995,
+        "explorationCoverage": 0.5026785714285714,
+        "explorerCoverage": 0.5026785714285714,
+        "replans": 9,
+        "reuse": 13,
+        "firstDelivery": 64.39999999999999,
+        "laterDelivery": 31.666666666666668
+      },
+      "spatialSha256": {
+        "a": "acb4ef157856035a71f6dbf35f3ae1a61aad4ff5175bb32636e7fda24edb6925",
+        "b": "747f773b510aa1b7cc18950594abaaddf85656bdbbac679b3aa2b5db41157c91"
+      },
+      "pairedRoutes": [
+        {
+          "id": "C-2:1",
+          "changed": false,
+          "stepsA": 54,
+          "stepsB": 54
+        },
+        {
+          "id": "C-2:2",
+          "changed": true,
+          "stepsA": 76,
+          "stepsB": 76
+        },
+        {
+          "id": "C-2:3",
+          "changed": true,
+          "stepsA": 76,
+          "stepsB": 78
+        },
+        {
+          "id": "C-2:4",
+          "changed": true,
+          "stepsA": 76,
+          "stepsB": 76
+        },
+        {
+          "id": "C-4:1",
+          "changed": true,
+          "stepsA": 86,
+          "stepsB": 228
+        },
+        {
+          "id": "C-4:2",
+          "changed": true,
+          "stepsA": 84,
+          "stepsB": 72
+        },
+        {
+          "id": "C-4:3",
+          "changed": true,
+          "stepsA": 84,
+          "stepsB": 68
+        },
+        {
+          "id": "C-4:4",
+          "changed": true,
+          "stepsA": 84,
+          "stepsB": 68
+        }
+      ],
+      "changedCells": [
+        {
+          "index": 526,
+          "x": 6,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 41.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.8
+              }
+            ],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 33
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 0.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 527,
+          "x": 7,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 32.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 1.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 528,
+          "x": 8,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 32
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 529,
+          "x": 9,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 31.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 530,
+          "x": 10,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 34.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 30.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 531,
+          "x": 11,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 33.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 30.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 532,
+          "x": 12,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 33
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 29.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 533,
+          "x": 13,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 534,
+          "x": 14,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 535,
+          "x": 15,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 31.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 536,
+          "x": 16,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 537,
+          "x": 17,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 538,
+          "x": 18,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 539,
+          "x": 19,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 540,
+          "x": 20,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 541,
+          "x": 21,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 542,
+          "x": 22,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 543,
+          "x": 23,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 544,
+          "x": 24,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 545,
+          "x": 25,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 546,
+          "x": 26,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 547,
+          "x": 27,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 21.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 24.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 548,
+          "x": 28,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 24.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 549,
+          "x": 29,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 25
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 550,
+          "x": 30,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 55
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 25.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 551,
+          "x": 31,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 55
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 25.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 552,
+          "x": 32,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 55
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 26.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 553,
+          "x": 33,
+          "y": 13,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 33.4
+              }
+            ],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 21.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 19.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 26.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 566,
+          "x": 6,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 41.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 1.2
+              }
+            ],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 33.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 1.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 567,
+          "x": 7,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 0.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 33
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 568,
+          "x": 8,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 32.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 569,
+          "x": 9,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 32
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 570,
+          "x": 10,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 0.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 31.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 571,
+          "x": 11,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 34.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 30.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 572,
+          "x": 12,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 33.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 30.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 17.8
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 573,
+          "x": 13,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 33
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 29.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 574,
+          "x": 14,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 575,
+          "x": 15,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 576,
+          "x": 16,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 31.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.4
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 577,
+          "x": 17,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.8
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 578,
+          "x": 18,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 579,
+          "x": 19,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 580,
+          "x": 20,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 581,
+          "x": 21,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.4
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 582,
+          "x": 22,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.8
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 583,
+          "x": 23,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 584,
+          "x": 24,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 585,
+          "x": 25,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 586,
+          "x": 26,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 21.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23.4
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 587,
+          "x": 27,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23.8
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 588,
+          "x": 28,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 24.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 589,
+          "x": 29,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 24.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 590,
+          "x": 30,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 25
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 591,
+          "x": 31,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 25.4
+              }
+            ],
+            "visits": 8,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 592,
+          "x": 32,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 25.8
+              }
+            ],
+            "visits": 8,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 593,
+          "x": 33,
+          "y": 14,
+          "kind": "passage",
+          "layers": [
+            "static"
+          ],
+          "before": "building",
+          "after": "road",
+          "passableA": false,
+          "passableB": true,
+          "costA": null,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 70.8
+              }
+            ],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 55
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 20.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 26.2
+              }
+            ],
+            "visits": 8,
+            "courierVisits": 5,
+            "reactions": 0
+          }
+        }
+      ],
+      "explanation": [
+        "56 changed cells: 56 passage. Per-cell costs shown use the Courier profile, excluding moving occupants.",
+        "B sensed 56/56 modified cells; entered 56 (56 entered by couriers). Sensing a blocked cell is different from entering it.",
+        "Recorded initial states match: controlled agents, empty memory, assignments, headings, sensing, seed and pedestrian starts.",
+        "4/4 actual agent trails differ in cell sequence. 7/8 matched completed delivery routes differ; 0 completed trips lack a completed counterpart. These comparisons exclude timing when checking route equality.",
+        "Success A/B: 8/8 → 8/8. Mean successful time: 31.55 → 39.85 simulated s. Weighted travel cost: 1,010.2 → 1,277.3. All-agent coverage: 40.982% → 50.268%. Recorded coverage differs by 9.286 percentage points; coarser rounding may hide this.",
+        "Trails include exploration, avoidance and post-delivery yielding; completed-delivery routes exclude yielding. These measurements do not identify a unique causal cell when several cells changed."
+      ],
+      "branches": [
+        {
+          "selected": "S001",
+          "nextBaseline": "S003",
+          "measurementSource": "S001",
+          "nextResult": {
+            "deliveries": 8,
+            "plannedTasks": 8,
+            "successRate": 1,
+            "averageDeliveryTime": 31.674999999999997,
+            "travelCost": 1016.6999999999998,
+            "explorationCoverage": 0.4089285714285714,
+            "explorerCoverage": 0.4089285714285714,
+            "replans": 4,
+            "reuse": 13,
+            "firstDelivery": 28.9,
+            "laterDelivery": 32.6
+          },
+          "iterations": [
+            "I001",
+            "I002"
+          ],
+          "validVariations": 3
+        },
+        {
+          "selected": "S002",
+          "nextBaseline": "S005",
+          "measurementSource": "S002",
+          "nextResult": {
+            "deliveries": 8,
+            "plannedTasks": 8,
+            "successRate": 1,
+            "averageDeliveryTime": 37.525,
+            "travelCost": 1244.1999999999994,
+            "explorationCoverage": 0.5017857142857143,
+            "explorerCoverage": 0.5017857142857143,
+            "replans": 5,
+            "reuse": 12,
+            "firstDelivery": 66.1,
+            "laterDelivery": 28.000000000000004
+          },
+          "iterations": [
+            "I003",
+            "I004"
+          ],
+          "validVariations": 3
+        }
+      ]
+    },
+    {
+      "id": "congestion",
+      "question": "How does increased movement cost affect route selection and delivery performance?",
+      "options": {
+        "seed": 1,
+        "count": 4,
+        "radius": 6,
+        "useLandmarks": true,
+        "seconds": 480
+      },
+      "plan": {
+        "width": 40,
+        "height": 28,
+        "area": {
+          "id": "city",
+          "name": "Entire city",
+          "x": 0,
+          "y": 0,
+          "width": 40,
+          "height": 28
+        },
+        "seed": 1,
+        "radius": 6,
+        "useLandmarks": true,
+        "taskLimit": 4,
+        "starts": [
+          {
+            "id": "E-1",
+            "type": "explorer",
+            "index": 564,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-115qeqw",
+            "batteryEnabled": false
+          },
+          {
+            "id": "C-2",
+            "type": "courier",
+            "index": 604,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-115qeqw",
+            "batteryEnabled": false
+          },
+          {
+            "id": "E-3",
+            "type": "explorer",
+            "index": 644,
+            "heading": 3.141592653589793,
+            "assignments": [
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-12q91y7",
+            "batteryEnabled": false
+          },
+          {
+            "id": "C-4",
+            "type": "courier",
+            "index": 684,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-12q91y7",
+            "batteryEnabled": false
+          }
+        ],
+        "jobs": [
+          {
+            "id": "site-1oiedce",
+            "kind": "destination"
+          },
+          {
+            "id": "site-4o31ax",
+            "kind": "destination"
+          }
+        ],
+        "requiredCells": [
+          564,
+          595,
+          644,
+          675
+        ]
+      },
+      "changes": {
+        "cells": [
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          544,
+          545,
+          574,
+          575,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584,
+          585
+        ],
+        "details": [
+          {
+            "index": 534,
+            "x": 14,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 535,
+            "x": 15,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 536,
+            "x": 16,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 537,
+            "x": 17,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 538,
+            "x": 18,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 539,
+            "x": 19,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 540,
+            "x": 20,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 541,
+            "x": 21,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 542,
+            "x": 22,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 543,
+            "x": 23,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 544,
+            "x": 24,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 545,
+            "x": 25,
+            "y": 13,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 574,
+            "x": 14,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 575,
+            "x": 15,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 576,
+            "x": 16,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 577,
+            "x": 17,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 578,
+            "x": 18,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 579,
+            "x": 19,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 580,
+            "x": 20,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 581,
+            "x": 21,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 582,
+            "x": 22,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 583,
+            "x": 23,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 584,
+            "x": 24,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          },
+          {
+            "index": 585,
+            "x": 25,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "static",
+                "before": "road",
+                "after": "crowd"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "key": "crowdBaseCost",
+            "before": null,
+            "after": 2.5
+          }
+        ],
+        "summary": [
+          {
+            "change": "static: road → crowd",
+            "count": 24
+          },
+          {
+            "change": "Terrain cost/access rules changed",
+            "count": 1
+          }
+        ]
+      },
+      "a": {
+        "deliveries": 8,
+        "plannedTasks": 8,
+        "successRate": 1,
+        "averageDeliveryTime": 39.85000000000001,
+        "travelCost": 1277.2999999999995,
+        "explorationCoverage": 0.5026785714285714,
+        "explorerCoverage": 0.5026785714285714,
+        "replans": 9,
+        "reuse": 13,
+        "firstDelivery": 64.39999999999999,
+        "laterDelivery": 31.666666666666668
+      },
+      "b": {
+        "deliveries": 8,
+        "plannedTasks": 8,
+        "successRate": 1,
+        "averageDeliveryTime": 32.375,
+        "travelCost": 1272.1999999999994,
+        "explorationCoverage": 0.5026785714285714,
+        "explorerCoverage": 0.5026785714285714,
+        "replans": 19,
+        "reuse": 15,
+        "firstDelivery": 31.299999999999997,
+        "laterDelivery": 32.73333333333333
+      },
+      "spatialSha256": {
+        "a": "747f773b510aa1b7cc18950594abaaddf85656bdbbac679b3aa2b5db41157c91",
+        "b": "4083690f5dc2eebe2395ad7dbd8f116804c7e88cfdd5f28774aee2d4abd09083"
+      },
+      "pairedRoutes": [
+        {
+          "id": "C-2:1",
+          "changed": false,
+          "stepsA": 54,
+          "stepsB": 54
+        },
+        {
+          "id": "C-2:2",
+          "changed": true,
+          "stepsA": 76,
+          "stepsB": 76
+        },
+        {
+          "id": "C-2:3",
+          "changed": true,
+          "stepsA": 78,
+          "stepsB": 76
+        },
+        {
+          "id": "C-2:4",
+          "changed": false,
+          "stepsA": 76,
+          "stepsB": 76
+        },
+        {
+          "id": "C-4:1",
+          "changed": true,
+          "stepsA": 228,
+          "stepsB": 98
+        },
+        {
+          "id": "C-4:2",
+          "changed": true,
+          "stepsA": 72,
+          "stepsB": 84
+        },
+        {
+          "id": "C-4:3",
+          "changed": true,
+          "stepsA": 68,
+          "stepsB": 84
+        },
+        {
+          "id": "C-4:4",
+          "changed": true,
+          "stepsA": 68,
+          "stepsB": 84
+        }
+      ],
+      "changedCells": [
+        {
+          "index": 534,
+          "x": 14,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 131.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 137.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 5
+          }
+        },
+        {
+          "index": 535,
+          "x": 15,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 31.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 132
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 138
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.4
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 536,
+          "x": 16,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 132.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 138.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.8
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 537,
+          "x": 17,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 133
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 139
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.2
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 2
+          }
+        },
+        {
+          "index": 538,
+          "x": 18,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 133.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 139.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.6
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 539,
+          "x": 19,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 134.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 140.2
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 540,
+          "x": 20,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 541,
+          "x": 21,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 542,
+          "x": 22,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 543,
+          "x": 23,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.6
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 2
+          }
+        },
+        {
+          "index": 544,
+          "x": 24,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 545,
+          "x": 25,
+          "y": 13,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23.4
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22.8
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 574,
+          "x": 14,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 132
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 138
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 5
+          }
+        },
+        {
+          "index": 575,
+          "x": 15,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 132.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 138.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 576,
+          "x": 16,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 31.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.4
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 133
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 139
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.4
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 577,
+          "x": 17,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.8
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 133.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 139.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 19.8
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 578,
+          "x": 18,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 30.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 134.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 140.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 579,
+          "x": 19,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 147
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 146.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 20.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 580,
+          "x": 20,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 150.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 148.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 581,
+          "x": 21,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.4
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 25.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 582,
+          "x": 22,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 21.8
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 28
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.8
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 583,
+          "x": 23,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 1
+          }
+        },
+        {
+          "index": 584,
+          "x": 24,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 22.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 27
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 23.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 585,
+          "x": 25,
+          "y": 14,
+          "kind": "crowd",
+          "layers": [
+            "static"
+          ],
+          "before": "road",
+          "after": "crowd",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 2.5,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 26.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 22
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        }
+      ],
+      "explanation": [
+        "24 changed cells: 24 crowd. Per-cell costs shown use the Courier profile, excluding moving occupants.",
+        "B sensed 24/24 modified cells; entered 24 (0 entered by couriers). Sensing a blocked cell is different from entering it.",
+        "Recorded initial states match: controlled agents, empty memory, assignments, headings, sensing, seed and pedestrian starts.",
+        "4/4 actual agent trails differ in cell sequence. 6/8 matched completed delivery routes differ; 0 completed trips lack a completed counterpart. These comparisons exclude timing when checking route equality.",
+        "Success A/B: 8/8 → 8/8. Mean successful time: 39.85 → 32.375 simulated s. Weighted travel cost: 1,277.3 → 1,272.2. All-agent coverage: 50.268% → 50.268%. Coverage is exactly equal in the recorded results.",
+        "Trails include exploration, avoidance and post-delivery yielding; completed-delivery routes exclude yielding. These measurements do not identify a unique causal cell when several cells changed."
+      ],
+      "branches": [
+        {
+          "selected": "S001",
+          "nextBaseline": "S003",
+          "measurementSource": "S001",
+          "nextResult": {
+            "deliveries": 8,
+            "plannedTasks": 8,
+            "successRate": 1,
+            "averageDeliveryTime": 37.525,
+            "travelCost": 1244.1999999999994,
+            "explorationCoverage": 0.5017857142857143,
+            "explorerCoverage": 0.5017857142857143,
+            "replans": 5,
+            "reuse": 12,
+            "firstDelivery": 66.1,
+            "laterDelivery": 28.000000000000004
+          },
+          "iterations": [
+            "I001",
+            "I002"
+          ],
+          "validVariations": 3
+        },
+        {
+          "selected": "S002",
+          "nextBaseline": "S005",
+          "measurementSource": "S002",
+          "nextResult": {
+            "deliveries": 8,
+            "plannedTasks": 8,
+            "successRate": 1,
+            "averageDeliveryTime": 32.75,
+            "travelCost": 1318.6999999999996,
+            "explorationCoverage": 0.5026785714285714,
+            "explorerCoverage": 0.5026785714285714,
+            "replans": 15,
+            "reuse": 12,
+            "firstDelivery": 35.8,
+            "laterDelivery": 31.73333333333333
+          },
+          "iterations": [
+            "I003",
+            "I004"
+          ],
+          "validVariations": 3
+        }
+      ]
+    },
+    {
+      "id": "landmark",
+      "question": "Does landmark discovery and reuse improve navigation or repeated-task performance?",
+      "options": {
+        "seed": 1,
+        "count": 4,
+        "radius": 6,
+        "useLandmarks": true,
+        "seconds": 480
+      },
+      "plan": {
+        "width": 40,
+        "height": 28,
+        "area": {
+          "id": "city",
+          "name": "Entire city",
+          "x": 0,
+          "y": 0,
+          "width": 40,
+          "height": 28
+        },
+        "seed": 1,
+        "radius": 6,
+        "useLandmarks": true,
+        "taskLimit": 4,
+        "starts": [
+          {
+            "id": "E-1",
+            "type": "explorer",
+            "index": 564,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-115qeqw",
+            "batteryEnabled": false
+          },
+          {
+            "id": "C-2",
+            "type": "courier",
+            "index": 604,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-115qeqw",
+            "batteryEnabled": false
+          },
+          {
+            "id": "E-3",
+            "type": "explorer",
+            "index": 644,
+            "heading": 3.141592653589793,
+            "assignments": [
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-12q91y7",
+            "batteryEnabled": false
+          },
+          {
+            "id": "C-4",
+            "type": "courier",
+            "index": 684,
+            "heading": 0,
+            "assignments": [
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              },
+              {
+                "id": "site-4o31ax",
+                "kind": "destination"
+              },
+              {
+                "id": "site-1oiedce",
+                "kind": "destination"
+              }
+            ],
+            "pickupId": "site-12q91y7",
+            "batteryEnabled": false
+          }
+        ],
+        "jobs": [
+          {
+            "id": "site-1oiedce",
+            "kind": "destination"
+          },
+          {
+            "id": "site-4o31ax",
+            "kind": "destination"
+          }
+        ],
+        "requiredCells": [
+          564,
+          595,
+          644,
+          675
+        ]
+      },
+      "changes": {
+        "cells": [
+          369,
+          378,
+          390,
+          574,
+          586,
+          724,
+          755,
+          778
+        ],
+        "details": [
+          {
+            "index": 369,
+            "x": 9,
+            "y": 9,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 378,
+            "x": 18,
+            "y": 9,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 390,
+            "x": 30,
+            "y": 9,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 574,
+            "x": 14,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 586,
+            "x": 26,
+            "y": 14,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 724,
+            "x": 4,
+            "y": 18,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 755,
+            "x": 35,
+            "y": 18,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          },
+          {
+            "index": 778,
+            "x": 18,
+            "y": 19,
+            "patches": [
+              {
+                "layer": "semantic",
+                "before": null,
+                "after": "landmark"
+              }
+            ]
+          }
+        ],
+        "rules": [],
+        "summary": [
+          {
+            "change": "semantic: empty → landmark",
+            "count": 8
+          }
+        ]
+      },
+      "a": {
+        "deliveries": 8,
+        "plannedTasks": 8,
+        "successRate": 1,
+        "averageDeliveryTime": 39.85000000000001,
+        "travelCost": 1277.2999999999995,
+        "explorationCoverage": 0.5026785714285714,
+        "explorerCoverage": 0.5026785714285714,
+        "replans": 9,
+        "reuse": 13,
+        "firstDelivery": 64.39999999999999,
+        "laterDelivery": 31.666666666666668
+      },
+      "b": {
+        "deliveries": 8,
+        "plannedTasks": 8,
+        "successRate": 1,
+        "averageDeliveryTime": 39.175000000000004,
+        "travelCost": 1286.4999999999995,
+        "explorationCoverage": 0.5026785714285714,
+        "explorerCoverage": 0.5026785714285714,
+        "replans": 11,
+        "reuse": 19,
+        "firstDelivery": 65.60000000000001,
+        "laterDelivery": 30.366666666666664
+      },
+      "spatialSha256": {
+        "a": "747f773b510aa1b7cc18950594abaaddf85656bdbbac679b3aa2b5db41157c91",
+        "b": "34b222840920e2ca14549a8eadc7c51e24c6455a3ac6a58235710a2918bc87ea"
+      },
+      "pairedRoutes": [
+        {
+          "id": "C-2:1",
+          "changed": true,
+          "stepsA": 54,
+          "stepsB": 46
+        },
+        {
+          "id": "C-2:2",
+          "changed": true,
+          "stepsA": 76,
+          "stepsB": 76
+        },
+        {
+          "id": "C-2:3",
+          "changed": true,
+          "stepsA": 78,
+          "stepsB": 76
+        },
+        {
+          "id": "C-2:4",
+          "changed": true,
+          "stepsA": 76,
+          "stepsB": 76
+        },
+        {
+          "id": "C-4:1",
+          "changed": true,
+          "stepsA": 228,
+          "stepsB": 240
+        },
+        {
+          "id": "C-4:2",
+          "changed": true,
+          "stepsA": 72,
+          "stepsB": 68
+        },
+        {
+          "id": "C-4:3",
+          "changed": true,
+          "stepsA": 68,
+          "stepsB": 68
+        },
+        {
+          "id": "C-4:4",
+          "changed": true,
+          "stepsA": 68,
+          "stepsB": 68
+        }
+      ],
+      "changedCells": [
+        {
+          "index": 369,
+          "x": 9,
+          "y": 9,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 4.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 38.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 42.4
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 4.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 46.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 51.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 378,
+          "x": 18,
+          "y": 9,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 10.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 43
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 45.4
+              }
+            ],
+            "visits": 1,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 15.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 52
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 54.2
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 390,
+          "x": 30,
+          "y": 9,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 17.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 49.8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 51.8
+              }
+            ],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 61.6
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 59
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 0,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 574,
+          "x": 14,
+          "y": 14,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 32.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 29.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 18.6
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 68.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 35.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 27
+              }
+            ],
+            "visits": 9,
+            "courierVisits": 6,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 586,
+          "x": 26,
+          "y": 14,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 25.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 21.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 23.4
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 5,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 75.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 27.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 31.8
+              }
+            ],
+            "visits": 8,
+            "courierVisits": 6,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 724,
+          "x": 4,
+          "y": 18,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 70.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 1
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              }
+            ],
+            "visits": 4,
+            "courierVisits": 4,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 56.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 2
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 1
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 0.2
+              }
+            ],
+            "visits": 7,
+            "courierVisits": 3,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 755,
+          "x": 35,
+          "y": 18,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 24.2
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 16
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 15.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 103.6
+              }
+            ],
+            "visits": 2,
+            "courierVisits": 2,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 36.8
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 15.8
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 18.2
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 109.4
+              }
+            ],
+            "visits": 4,
+            "courierVisits": 2,
+            "reactions": 0
+          }
+        },
+        {
+          "index": 778,
+          "x": 18,
+          "y": 19,
+          "kind": "landmark",
+          "layers": [
+            "semantic"
+          ],
+          "before": "road",
+          "after": "road",
+          "passableA": true,
+          "passableB": true,
+          "costA": 1,
+          "costB": 1,
+          "a": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 63
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 9.4
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 6.4
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 7.8
+              }
+            ],
+            "visits": 0,
+            "courierVisits": 0,
+            "reactions": 0
+          },
+          "b": {
+            "observers": [
+              {
+                "id": "E-1",
+                "type": "explorer",
+                "firstSeenAt": 47
+              },
+              {
+                "id": "C-2",
+                "type": "courier",
+                "firstSeenAt": 8.6
+              },
+              {
+                "id": "E-3",
+                "type": "explorer",
+                "firstSeenAt": 8
+              },
+              {
+                "id": "C-4",
+                "type": "courier",
+                "firstSeenAt": 9.2
+              }
+            ],
+            "visits": 3,
+            "courierVisits": 1,
+            "reactions": 0
+          }
+        }
+      ],
+      "explanation": [
+        "8 changed cells: 8 landmark. Per-cell costs shown use the Courier profile, excluding moving occupants.",
+        "B sensed 8/8 modified cells; entered 8 (5 entered by couriers). Sensing a blocked cell is different from entering it.",
+        "Recorded initial states match: controlled agents, empty memory, assignments, headings, sensing, seed and pedestrian starts.",
+        "4/4 actual agent trails differ in cell sequence. 8/8 matched completed delivery routes differ; 0 completed trips lack a completed counterpart. These comparisons exclude timing when checking route equality.",
+        "Success A/B: 8/8 → 8/8. Mean successful time: 39.85 → 39.175 simulated s. Weighted travel cost: 1,277.3 → 1,286.5. All-agent coverage: 50.268% → 50.268%. Coverage is exactly equal in the recorded results.",
+        "Trails include exploration, avoidance and post-delivery yielding; completed-delivery routes exclude yielding. These measurements do not identify a unique causal cell when several cells changed."
+      ],
+      "branches": [
+        {
+          "selected": "S001",
+          "nextBaseline": "S003",
+          "measurementSource": "S001",
+          "nextResult": {
+            "deliveries": 8,
+            "plannedTasks": 8,
+            "successRate": 1,
+            "averageDeliveryTime": 37.525,
+            "travelCost": 1244.1999999999994,
+            "explorationCoverage": 0.5017857142857143,
+            "explorerCoverage": 0.5017857142857143,
+            "replans": 5,
+            "reuse": 12,
+            "firstDelivery": 66.1,
+            "laterDelivery": 28.000000000000004
+          },
+          "iterations": [
+            "I001",
+            "I002"
+          ],
+          "validVariations": 3
+        },
+        {
+          "selected": "S002",
+          "nextBaseline": "S005",
+          "measurementSource": "S002",
+          "nextResult": {
+            "deliveries": 8,
+            "plannedTasks": 8,
+            "successRate": 1,
+            "averageDeliveryTime": 35.825,
+            "travelCost": 1317.2999999999995,
+            "explorationCoverage": 0.5026785714285714,
+            "explorerCoverage": 0.5026785714285714,
+            "replans": 22,
+            "reuse": 24,
+            "firstDelivery": 54.2,
+            "laterDelivery": 29.700000000000006
+          },
+          "iterations": [
+            "I003",
+            "I004"
+          ],
+          "validVariations": 3
+        }
+      ]
+    }
+  ]
+}
